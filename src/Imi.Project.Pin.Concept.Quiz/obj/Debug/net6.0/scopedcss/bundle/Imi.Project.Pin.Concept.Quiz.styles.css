@@ -1,0 +1,212 @@
+/* _content/Imi.Project.Pin.Concept.Quiz/Components/OptionCard.razor.rz.scp.css */
+.option[b-xul5q6xtxi] {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    -webkit-box-shadow: 10px 10px 23px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 23px -11px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 23px -11px rgba(0,0,0,0.75);
+}
+
+    .option:hover[b-xul5q6xtxi] {
+        background-color: #0EBEC4;
+        color: #fff;
+        border-radius: 3px;
+        padding: 10px;
+    }
+/* _content/Imi.Project.Pin.Concept.Quiz/Pages/QuizCard.razor.rz.scp.css */
+*[b-zjjvbxbwus]{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial;
+    box-sizing: border-box;
+}
+
+.app-title[b-zjjvbxbwus] {
+    margin: 30px auto;
+    padding: 10px;
+    font-size: 40pt;
+    width: 100%;
+    text-align: center;
+}
+
+.quiz[b-zjjvbxbwus] {
+    margin: 10px auto;
+    width: 50%;
+    background-color: #AAFCFF;
+    border-radius: 10px;
+    padding: 150px;
+    box-shadow: -20px 20px 30px rgba(0,0,0,0.3);
+}
+.quiz-category[b-zjjvbxbwus] {
+    
+    text-align: center;
+    font-family: Arial;
+    font-size: 1.5rem;
+}
+.quiz-header[b-zjjvbxbwus] {
+    text-align: center;
+    font-family:Arial;
+    font-size:1.5rem;
+}
+
+.quiz-body[b-zjjvbxbwus] {
+    padding-top: 15px;
+}
+
+.quiz-footer[b-zjjvbxbwus] {
+    display: flex;
+    justify-content: center;
+}
+
+.next-btn[b-zjjvbxbwus] {
+    width: 200px;
+    padding: 5px;
+    background-color: #0559AD;
+    color: #fff;
+    font-size: 14pt;
+    border-radius: 3px;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.next-btn:hover[b-zjjvbxbwus] {
+    box-shadow: -1.8px 1.5px 10px rgba(0,0,0,0.3);
+}
+/* _content/Imi.Project.Pin.Concept.Quiz/Shared/MainLayout.razor.rz.scp.css */
+.page[b-t63sgb3z0a] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-t63sgb3z0a] {
+    flex: 1;
+}
+
+.sidebar[b-t63sgb3z0a] {
+    background-color: #007EC6;
+}
+
+.top-row[b-t63sgb3z0a] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-t63sgb3z0a]  a, .top-row .btn-link[b-t63sgb3z0a] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-t63sgb3z0a] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-t63sgb3z0a] {
+        display: none;
+    }
+
+    .top-row.auth[b-t63sgb3z0a] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-t63sgb3z0a], .top-row .btn-link[b-t63sgb3z0a] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-t63sgb3z0a] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-t63sgb3z0a] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-t63sgb3z0a] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row[b-t63sgb3z0a], article[b-t63sgb3z0a] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* _content/Imi.Project.Pin.Concept.Quiz/Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-wojjq7nwak] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-wojjq7nwak] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-wojjq7nwak] {
+    font-size: 1.1rem;
+}
+
+.oi[b-wojjq7nwak] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-wojjq7nwak] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-wojjq7nwak] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-wojjq7nwak] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-wojjq7nwak]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-wojjq7nwak]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-wojjq7nwak]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-wojjq7nwak] {
+        display: none;
+    }
+
+    .collapse[b-wojjq7nwak] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}

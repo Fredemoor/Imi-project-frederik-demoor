@@ -1,0 +1,112 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div id="app">
+    <h1>{{pageTitle}}</h1>
+    <div class="row">
+        <div class="btn-group mb-5" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-outline-primary" v-on:click="showDogs">Dogs</button>
+        </div>
+    </div>
+    <div v-if="showDogsSection">
+        <div class="row">
+            <div class="card col-md-4 p-5 m-1  justify-content-evenly" v-for="dog in dogs">
+                <img class="card-img-top" alt="Card image cap">
+                <div class="card-body">
+                    <h2 class="card-title">{{dog.name}}</h2>
+                    <h5 class="card-title">{{dog.breed}}</h5>
+                  
+                    <div class="btn-group mb-5" role="group" aria-label="Basic example">
+                        <a href="#" class="btn btn-primary" v-on:click="showDogDetails(dog)">Bekijk details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div v-if="showDogDetailSection">
+        <div class="row">
+            <div class="col-md-3 card">
+                <img class="card-img" v-bind:src="dogDetail.media" alt="" />
+            </div>
+           
+            <div class="col-md-9">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title">{{dogDetail.name}}</h1>
+                        <h3 class="card-title">{{dogDetail.breed}}</h3>
+                        <h4 class="card-title">{{dogDetail.location}}</h4>
+                        <h4 class="card-title">{{dogDetail.kennel}}</h4>
+                        <p class="mb-1" v-html="dogDetail.description"></p>
+                        <a href="#" class="btn btn-secondary" v-on:click="showDogs">Terug</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts{
+
+    <script>
+        const baseUrl = "https://localhost:5001/Api/";
+        var app = new Vue({
+            el: '#app',
+            data: {
+                pageTitle: "hello",
+                dogs: null,
+                showDogDetailSection: false,
+                showDogsSection: false,
+                dogDetail: null,
+                showErrorSection: false,
+                errorMessage: "",
+                isLoading: true,
+
+            },
+            methods: {
+                showDogs: async function () {
+                    await axios.get(`${baseUrl}animals`)
+                        .then((response) => {
+                            this.dogs = response.data
+                        })
+                        .catch((e) => {
+                            this.showErrorSection = true;
+                            this.errorMessage = e.message
+                        })
+                        .finally(() => {
+                            this.isLoading = false;
+                        });
+                    await axios.get(`${baseUrl}medias`)
+                        .then((response) => {
+                            this.medias = response.data;
+                        })
+                        .catch((e) => {
+                            this.showErrorSection = true;
+                            this.errorMessage = e.message
+                        })
+                        .finally(() => {
+                            this.isLoading = false;
+                        });
+                    this.showDogsSection = true;
+                },
+                showDogDetails: async function (dog) {
+                    this.isLoading = true;
+                    await axios.get(`${baseUrl}animals/${dog.id}`)
+                        .then((response) => {
+                            this.dogDetail = response.data;
+                            this.showDogsSection = false;
+                            this.showDogDetailSection = true;
+                        })
+                        .catch((e) => {
+                            this.showErrorSection = true;
+                            this.errorMessage = e.message
+                        })
+                        .finally(() => {
+                            this.isLoading = false;
+                        });
+                },
+            }
+        });
+    </script>
+}

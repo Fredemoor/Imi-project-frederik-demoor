@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit" 
+             x:Class="Imi.Project.Mobile.App">
+    <!--<Setter Property="" Value=""></Setter>
+    <Setter Property="" Value=""></Setter>
+    <Setter Property="" Value=""></Setter>-->
+    
+    <Application.Resources>
+        <ResourceDictionary>
+            <!--CONVERTERS-->
+            <xct:ItemSelectedEventArgsConverter x:Key="ItemSelectedEventArgsConverter"/>
+            <!--<conv:AgeIntToStringConverter x:Key="AgeIntToStringConverter " />-->
+
+            <!-- Common Colors -->
+            <Color x:Key="ColorBG">#f1dca7</Color>
+            <Color x:Key="ColorTextBlack">#404040</Color>
+            <Color x:Key="ColorAccent">#ffffff</Color>
+            <Color x:Key="ColorBtnDark">#ff7d00</Color>
+            <Color x:Key="ColorWhite">White</Color>
+            <Color x:Key="ColorTitle">White</Color>
+
+            <Color x:Key="ColorNavBar">#ff7d00</Color>
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="{StaticResource ColorNavBar}" />
+                <Setter Property="BarTextColor" Value="White" />
+            </Style>
+
+            <!--Title Screen Text-->
+            <Style x:Key="TitlePage" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource ColorTitle}"></Setter>
+                <Setter Property="HorizontalTextAlignment" Value="Center"></Setter>
+                <Setter Property="FontSize" Value="60"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+            </Style>
+            <!--Page Title LABEL Layout-->
+            <Style x:Key="LabelHeaderLayout" TargetType="Label">
+                <Setter Property="FontSize" Value="40"></Setter>
+                <Setter Property="Padding" Value="0,0,30,0"></Setter>
+                <Setter Property="TextColor" Value="{StaticResource ColorTextBlack}"></Setter>
+                <Setter Property="HorizontalTextAlignment" Value="End"></Setter>
+            </Style>
+            <!--SMALL BUTTONS-->
+            <Style x:Key="ButtonLayoutSmall" TargetType="Button">
+                <Setter Property="TextColor" Value="{StaticResource ColorWhite}"></Setter>
+                <Setter Property="BorderColor" Value="{StaticResource ColorBtnDark}"></Setter>
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorBtnDark}"></Setter>
+                <Setter Property="BorderWidth" Value="3"></Setter>
+                <Setter Property="CornerRadius" Value="5"></Setter>
+                <Setter Property="WidthRequest" Value="100"></Setter>
+                <Setter Property="HeightRequest" Value="50"></Setter>
+                <Setter Property="FontSize" Value="Small"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+            </Style>
+
+            <!--BIG DARK BUTTONS-->
+            <Style x:Key="ButtonLayoutBlack" TargetType="Button">
+                <Setter Property="BorderColor" Value="{StaticResource ColorTitle}"></Setter>
+                <Setter Property="BorderWidth" Value="3"></Setter>
+                <Setter Property="CornerRadius" Value="5"></Setter>
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorBtnDark}"></Setter>
+                <Setter Property="TextColor" Value="{StaticResource ColorWhite}"></Setter>
+                <Setter Property="WidthRequest" Value="100"></Setter>
+                <Setter Property="Margin" Value="50,30,0,0"></Setter>
+                <Setter Property="FontSize" Value="Small"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+            </Style>
+            <!--BIG White BUTTONS-->
+            <Style x:Key="ButtonLayoutWhite" TargetType="Button">
+                <Setter Property="BorderColor" Value="{StaticResource ColorBtnDark}"></Setter>
+                <Setter Property="BorderWidth" Value="3"></Setter>
+                <Setter Property="CornerRadius" Value="5"></Setter>
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorWhite}"></Setter>
+                <Setter Property="TextColor" Value="{StaticResource ColorBtnDark}"></Setter>
+                <Setter Property="WidthRequest" Value="200"></Setter>
+                <Setter Property="FontSize" Value="Small"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+            </Style>
+            <!--MAINPAGE BUTTON BLACK-->
+            <Style x:Key="ButtonMainPageBlack" TargetType="Button">
+                <Setter Property="BorderColor" Value="{StaticResource ColorBtnDark}"></Setter>
+                <Setter Property="BorderWidth" Value="3"></Setter>
+                <Setter Property="CornerRadius" Value="5"></Setter>
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorBtnDark}"></Setter>
+                <Setter Property="TextColor" Value="{StaticResource ColorWhite}"></Setter>
+                <Setter Property="WidthRequest" Value="200"></Setter>
+                <Setter Property="FontSize" Value="Small"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+                <Setter Property="VerticalOptions" Value="Start"></Setter>
+                <Setter Property="HorizontalOptions" Value="Start"></Setter>
+                <Setter Property="WidthRequest" Value="150"></Setter>
+                <Setter Property="Padding" Value="10"></Setter>
+            </Style>
+            <!--MAINPAGE BUTTON WHITE-->
+            <Style x:Key="ButtonMainPageWhite" TargetType="Button">
+                <Setter Property="BorderColor" Value="{StaticResource ColorBtnDark}"></Setter>
+                <Setter Property="BorderWidth" Value="3"></Setter>
+                <Setter Property="CornerRadius" Value="5"></Setter>
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorWhite}"></Setter>
+                <Setter Property="TextColor" Value="{StaticResource ColorBtnDark}"></Setter>
+                <Setter Property="WidthRequest" Value="200"></Setter>
+                <Setter Property="FontSize" Value="Small"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+                <Setter Property="VerticalOptions" Value="Start"></Setter>
+                <Setter Property="HorizontalOptions" Value="Start"></Setter>
+                <Setter Property="WidthRequest" Value="150"></Setter>
+                <Setter Property="Padding" Value="10"></Setter>
+            </Style>
+
+            <Style x:Key="StackBG" TargetType="StackLayout">
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorBG}"></Setter>
+            </Style>
+
+            <Style x:Key="ListName" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource ColorTextBlack}"></Setter>
+                <Setter Property="FontSize" Value="Large"></Setter>
+            </Style>
+
+            <!--DETAIL PAGE LAYOUT-->
+            <Style x:Key="ButtonUpDateLayoutSmall" TargetType="Button">
+
+                <Setter Property="HorizontalOptions" Value="Center"></Setter>
+                <Setter Property="BorderColor" Value="{StaticResource ColorBtnDark}"></Setter>
+                <Setter Property="BorderWidth" Value="3"></Setter>
+                <Setter Property="CornerRadius" Value="5"></Setter>
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorWhite}"></Setter>
+                <Setter Property="TextColor" Value="{StaticResource ColorBtnDark}"></Setter>
+                <Setter Property="WidthRequest" Value="150"></Setter>
+                <Setter Property="FontSize" Value="Small"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+            </Style>
+
+            <!--HEADER-->
+            <Style x:Key="DetailHeaderLayout" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource ColorTextBlack}"></Setter>
+                <Setter Property="HorizontalTextAlignment" Value="Center"></Setter>
+                <Setter Property="FontSize" Value="50"></Setter>
+            </Style>
+
+            <!--DETAIL MAIN LAYOUT-->
+            <Style x:Key="DetailMainTextLayout" TargetType="Label">
+                <Setter Property="FontSize" Value="Medium"></Setter>
+            </Style>
+
+            <!--IMAGE-->
+            <Style x:Key="DetailImageLayout" TargetType="Image">
+                <Setter Property="HeightRequest" Value="300"></Setter>
+                <Setter Property="WidthRequest" Value="400"></Setter>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

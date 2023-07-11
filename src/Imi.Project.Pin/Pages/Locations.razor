@@ -1,0 +1,31 @@
+﻿@page "/Locations"
+
+
+<h3>Locations</h3>
+
+<div class="mt-3">
+ @if (!string.IsNullOrEmpty(error))
+ {
+ <div class="alert alert-danger">
+ @error
+ </div>
+ }
+ @if (currentLocation == null)
+ {
+ <LocationsList Items="locations"
+ OnAdd="AddLocation"
+ OnEdit="EditLocation"
+ OnDelete="DeleteLocation">
+ </LocationsList>
+ }
+ else
+ {
+ <LocationForm Location="currentLocation"
+ OnSave="SaveLocation"
+ OnCancel="Refreshlocations">
+ </LocationForm>
+ }
+</div>
+
+
+ 

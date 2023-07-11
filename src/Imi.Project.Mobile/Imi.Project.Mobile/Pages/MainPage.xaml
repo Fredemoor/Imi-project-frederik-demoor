@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Imi.Project.Mobile.Pages.MainPage">
+    <ScrollView>
+        <StackLayout Style="{StaticResource StackBG}">
+            <StackLayout Margin="0,70,0,0">
+                <Label Text="{Binding Message}"></Label>
+                <Label Text="Shelter" Style="{StaticResource TitlePage}"></Label>
+                <Label Text="Helper"  Style="{StaticResource TitlePage}"></Label>
+           </StackLayout>
+            <FlexLayout JustifyContent="SpaceAround" Margin="0,250,0,0">
+                <Button x:Name="btnRegister" Style="{StaticResource ButtonMainPageBlack}"  Text="Register"  Command="{Binding RegisterCommand}" ></Button>
+                <Button x:Name="btnLogIn" Style="{StaticResource ButtonMainPageWhite}" Text="Log In"  Command="{Binding LoginCommand}"></Button>
+            </FlexLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

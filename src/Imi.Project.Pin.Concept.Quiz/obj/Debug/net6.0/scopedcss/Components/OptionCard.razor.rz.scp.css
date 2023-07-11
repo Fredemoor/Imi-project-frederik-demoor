@@ -1,0 +1,17 @@
+.option[b-xul5q6xtxi] {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    -webkit-box-shadow: 10px 10px 23px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 23px -11px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 23px -11px rgba(0,0,0,0.75);
+}
+
+    .option:hover[b-xul5q6xtxi] {
+        background-color: #0EBEC4;
+        color: #fff;
+        border-radius: 3px;
+        padding: 10px;
+    }

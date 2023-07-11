@@ -1,0 +1,23 @@
+﻿<EditForm Model="@Breed" OnValidSubmit="@(e => OnSave.InvokeAsync(Breed))">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="name">Name: </label>
+        <InputText id="name" class="form-control"
+                   @bind-Value="Breed.Name" />
+        <ValidationMessage For="@(() => Breed.Name)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <button type="button" class="btn btn-warning" @onclick="OnCancel">Cancel</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public Breed Breed { get; set; }
+    [Parameter]
+    public EventCallback<Breed> OnSave { get; set; }
+    [Parameter]
+    public EventCallback OnCancel { get; set; }
+}

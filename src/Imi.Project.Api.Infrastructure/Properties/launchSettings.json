@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Imi.Project.Api.Infrastructure": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:63527;http://localhost:63530"
+    }
+  }
+}

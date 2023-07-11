@@ -1,0 +1,52 @@
+﻿@inherits LayoutComponentBase
+
+<PageTitle>Imi.Project.Pin.Concept.Quiz</PageTitle>
+
+<div class="page">
+    <div class="sidebar">
+        <h3>Players</h3>
+        <input @bind="playerName" placeholder="Enter player name" />
+        <button @onclick="AddPlayer">Add Player</button>
+        <ul>
+            @foreach (var player in players)
+            {
+                <li>@player</li>
+            }
+        </ul>
+        <h3>Game Settings</h3>
+        <label for="turns">Number of Turns:</label>
+        <input type="number" id="turns" @bind="numberOfTurns" />
+        <button @onclick="StartGame">Start Game</button>
+    </div>
+
+    <main>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+@code {
+    private string playerName;
+    private List<string> players = new List<string>();
+
+    private void AddPlayer()
+    {
+        if (!string.IsNullOrEmpty(playerName))
+        {
+            players.Add(playerName);
+            playerName = string.Empty;
+        }
+    }
+
+    private int numberOfTurns;
+    private int currentTurn = 0;
+    private bool isGameStarted = false;
+
+    private void StartGame()
+    {
+        isGameStarted = true;
+        currentTurn = 0;
+    }
+}

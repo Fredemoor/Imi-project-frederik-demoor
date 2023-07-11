@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:Imi.Project.Mobile.PageModels"
+             x:Class="Imi.Project.Mobile.Pages.DogListPage"
+             xmlns:urisource="clr-namespace:Howest.Prog.Xamarin.UriSourceExtensions;assembly=Howest.Prog.Xamarin.UriSourceExtensions">
+
+    <ContentPage.Content>
+        <RefreshView IsRefreshing="{Binding IsRefreshing}"
+                     Command="{Binding RefreshCommand}">
+            <ScrollView>
+                <StackLayout Margin="10">
+                    <Label Margin="20" Style="{StaticResource LabelHeaderLayout}" Text="Dogs"/>
+                    <ListView  
+                        ItemsSource="{Binding Animals}"                       
+                        CachingStrategy="RecycleElement" 
+                        SelectedItem="{Binding SelectedAnimal,Mode=TwoWay}" >
+                        <ListView.ItemTemplate >
+                            <DataTemplate>
+                                <ViewCell>
+                                    <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="SpaceBetween" StyleClass="listitem">
+
+                                        <Image Source="{Binding Path = Media}" Aspect="AspectFill"  VerticalOptions="CenterAndExpand">
+                                            <Image.Behaviors>
+                                                <urisource:TlsSourceBehavior 
+                                       IgnoreCertificateErrors="True" />
+                                            </Image.Behaviors>
+                                        </Image>
+                                        <Label  x:Name="ListName" Text="{Binding Name}" Style="{StaticResource ListName}" VerticalOptions="End" HorizontalOptions="StartAndExpand" />
+                                        <Label x:Name="ListGender" Text="{Binding Gender}" Style="{StaticResource ListName}" VerticalOptions="End" HorizontalOptions="StartAndExpand" />
+                                    </FlexLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </ScrollView>
+        </RefreshView>
+    </ContentPage.Content>
+</ContentPage> 

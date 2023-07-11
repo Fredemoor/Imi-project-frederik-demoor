@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Pin.Project.ComponentLib.props" />
+</Project>

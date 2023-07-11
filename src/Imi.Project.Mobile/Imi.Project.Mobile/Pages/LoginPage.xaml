@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:vm="clr-namespace:Imi.Project.Mobile.PageModels"
+             x:Class="Imi.Project.Mobile.Pages.LoginPage"    
+             Title="Shelter Helper">
+
+    <ScrollView>
+        <StackLayout Style="{StaticResource StackBG}">
+            <StackLayout Margin="0,40,0,0">
+                <!--title layout-->
+                <Label Text="Log In" Style="{StaticResource LabelHeaderLayout}"/>
+            </StackLayout>
+
+            <FlexLayout  Direction="Column" Margin="0,60,0,0" Padding="50">
+                <Entry Keyboard="Email" Placeholder="Email" ClearButtonVisibility="WhileEditing" />
+                <Entry Keyboard="Plain" Placeholder="PassWord" IsPassword="true" ClearButtonVisibility="WhileEditing"/>
+            </FlexLayout>
+
+
+            <StackLayout>
+                <Button  Style="{StaticResource ButtonLayoutBlack}" Text="Log In" Command="{Binding GoToHomeCommand}"  HorizontalOptions="Center" Margin="20,20,20,20"></Button>
+                <Button  BackgroundColor="Transparent"  Text="New Helper?"  Command="{Binding RegisterCommand}" ></Button>
+            
+            </StackLayout>
+
+        </StackLayout>
+
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:system="clr-namespace:System;assembly=netstandard" xmlns:pagemodels="clr-namespace:Imi.Project.Mobile.PageModels" x:DataType="pagemodels:RegisterPageModel"
+             x:Class="Imi.Project.Mobile.Pages.RegisterPage"
+               Title="Shelter Helper">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Style="{StaticResource StackBG}">
+                <StackLayout  Margin="0,40,0,0">
+                    <!--title layout-->
+                    <Label Style="{StaticResource LabelHeaderLayout}" Text="Register"/>
+                </StackLayout>
+                <FlexLayout Direction="Column" AlignItems="Stretch" Margin="0,60,0,0" Padding="50">
+
+                    <Entry Text="{Binding Username}"                       
+                           Keyboard="Text" Placeholder="Username" />
+                    <Label Text="{Binding UsernameEntryError}"
+                           IsVisible="{Binding UsernameEntryErrorVisible}"
+                           StyleClass="errormessage"/>
+
+                    <Entry Text="{Binding Email}"                       
+                           Keyboard="Text" Placeholder="email" />
+                    <Label Text="{Binding EmailEntryError}"
+                           IsVisible="{Binding EmailEntryErrorVisible}"
+                           StyleClass="errormessage"/>
+
+                    <Entry Text="{Binding Password}"                       
+                           Keyboard="Text" Placeholder="password" />
+                    <Label Text="{Binding PasswordEntryError}"
+                           IsVisible="{Binding PasswordEntryErrorVisible}"
+                           StyleClass="errormessage"/>
+
+                    <Entry Text="{Binding ConfirmedPassword}"                       
+                           Keyboard="Text" Placeholder="confirmedPassword" />
+                    <Label Text="{Binding ConfirmedPasswordEntryError}"
+                           IsVisible="{Binding ConfirmedPasswordEntryErrorVisible}"
+                           StyleClass="errormessage"/>
+
+                    <StackLayout>
+                        <DatePicker BindingContext="{Binding Birthdate}" VerticalOptions="CenterAndExpand" Date="{x:Static system:DateTime.Now}">
+                            <DatePicker.Format>yyyy-MM-dd</DatePicker.Format>
+                            <DatePicker.MinimumDate>
+                                <system:DateTime x:FactoryMethod="Parse">
+                                    <x:Arguments>
+                                        <x:String>Jan 1 2000</x:String>
+                                    </x:Arguments>
+                                </system:DateTime>
+                            </DatePicker.MinimumDate>
+                            <DatePicker.MaximumDate>
+                                <system:DateTime x:FactoryMethod="Parse">
+                                    <x:Arguments>
+                                        <x:String>Dec 31 2050</x:String>
+                                    </x:Arguments>
+                                </system:DateTime>
+                            </DatePicker.MaximumDate>
+                        </DatePicker>
+                    </StackLayout>
+
+                    <Label Text="{Binding BirthdateEntryError}"
+                           IsVisible="{Binding BirthdateEntryErrorVisible}"
+                           StyleClass="errormessage"/>
+
+                    <Label Text="I agree with the terms"></Label>
+                    <CheckBox  IsChecked="{Binding HasAcceptedTermsAndConditions}"/>
+
+                    <Label Text="{Binding HasAcceptedTermsAndConditionsError}"
+                           IsVisible="{Binding HasAcceptedTermsAndConditionsErrorVisible}"
+                           StyleClass="errormessage"/>
+                </FlexLayout>
+
+                <FlexLayout JustifyContent="Center" >
+                    <Button Text="Log In" 
+                            Style="{StaticResource ButtonLayoutBlack}"
+                            HorizontalOptions="Center"
+                            Command="{Binding SaveCommand}"
+                            ></Button>
+                </FlexLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

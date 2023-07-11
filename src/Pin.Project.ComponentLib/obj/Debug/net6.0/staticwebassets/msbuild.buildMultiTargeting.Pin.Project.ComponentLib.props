@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Pin.Project.ComponentLib.props" />
+</Project>

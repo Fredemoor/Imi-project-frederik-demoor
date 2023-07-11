@@ -1,0 +1,60 @@
+﻿@page "/animals"
+
+@inject IAnimalService AnimalService
+@inject NavigationManager navigationManager
+
+<PageTitle>Animals</PageTitle>
+
+<h3>Animals</h3>
+
+
+<table class="table">
+    <thead class="alert-light">
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Birthday</th>
+            <th scope="col">Gender</th>
+            <th scope="col">Breed</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var animal in AnimalService.Animals)
+        {
+            <tr>
+                <td>@animal.Name</td>
+                <td>@animal.Breed</td>
+                <td>@animal.Gender</td>
+                <td>@animal.BirthDay</td>
+                <td>
+@*                    <button type="button" class="btn btn-info" @onclick="(()=> ShowAnimalById(animal.Id))"><i class="oi oi-pencil"></i></button>
+*@                    <button type="button" class="btn btn-danger"><i class="oi oi-delete"></i></button>
+                    <button type="button" class="btn btn-light"><i class="oi oi-magnifying-glass"></i></button>
+                    <button type="button" class="btn btn-info" @onclick="(()=>ShowAnimalById(animal.Id))"><i class="oi oi-pencil"></i></button>
+
+                </td>
+                <td>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-dark">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await AnimalService.GetAnimals();
+    }
+
+
+    void ShowAnimalById(Guid id)
+    {
+        navigationManager.NavigateTo($"/animal/{id}");
+    }
+
+    //void ShowAnimalById(Guid id)
+    //{
+    //    navigationManager.NavigateTo($"{id}");
+    //}
+}

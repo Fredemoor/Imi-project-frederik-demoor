@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Imi.Project.Pin.Concept.Quiz.props" />
+</Project>

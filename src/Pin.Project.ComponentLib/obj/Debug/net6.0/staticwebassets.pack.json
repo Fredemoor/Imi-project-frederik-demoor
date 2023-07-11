@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Pin.Project.ComponentLib\\wwwroot\\scripts\\pin.project.componentLib.js",
+      "PackagePath": "staticwebassets\\scripts\\pin.project.componentLib.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Pin.Project.ComponentLib.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Pin.Project.ComponentLib.props",
+      "PackagePath": "build\\Pin.Project.ComponentLib.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Pin.Project.ComponentLib.props",
+      "PackagePath": "buildMultiTargeting\\Pin.Project.ComponentLib.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Pin.Project.ComponentLib.props",
+      "PackagePath": "buildTransitive\\Pin.Project.ComponentLib.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:conv="clr-namespace:Imi.Project.Mobile.Converters" 
+             xmlns:vm="clr-namespace:Imi.Project.Mobile.PageModels"
+             x:Class="Imi.Project.Mobile.Pages.DogDetailPage"
+             xmlns:urisource="clr-namespace:Howest.Prog.Xamarin.UriSourceExtensions;assembly=Howest.Prog.Xamarin.UriSourceExtensions">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <conv:AgeIntToStringConverter x:Key="AgeIntToStringConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Update"
+                     Priority="1"
+                     Order="Secondary"
+                     Command="{Binding UpdatePageCommand}"
+                     />
+        <ToolbarItem Text="Delete"
+                     Priority="1"
+                     Order="Secondary"
+                      Command="{Binding DeleteCommand}"
+                     />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <FlexLayout Direction="Column" AlignItems="Center">
+                    <Label Margin="20" Style="{StaticResource DetailHeaderLayout}" Text="{Binding SelectedAnimal.Name}"/>
+                </FlexLayout>
+                <Image Source="{Binding Media}" Style="{StaticResource DetailImageLayout}">
+                    <Image.Behaviors>
+                        <urisource:TlsSourceBehavior 
+                         IgnoreCertificateErrors="True" />
+                    </Image.Behaviors>
+                </Image>
+                <FlexLayout JustifyContent="Center">
+                    <Label Text="Birthdate" />
+                    <Label Text="{Binding SelectedAnimal.Birthdate}" />
+                </FlexLayout>
+                <FlexLayout JustifyContent="Center">
+                    <Label Style="{StaticResource DetailMainTextLayout}" Text="Age: "></Label>
+                    <Label Text="{Binding Age, Converter = {StaticResource AgeIntToStringConverter}}"></Label>
+                </FlexLayout>
+                <FlexLayout  Direction ="Column" AlignItems="Center">
+                    <Label Style="{StaticResource DetailMainTextLayout}" Text="Breed: "/>
+                    <Label Style="{StaticResource DetailMainTextLayout}" Text="{Binding SelectedAnimal.Breed}"></Label>
+                </FlexLayout>
+                <FlexLayout  Direction ="Column" AlignItems="Center">
+                    <Label Style="{StaticResource DetailMainTextLayout}" Text="Location: "/>
+                    <Label Style="{StaticResource DetailMainTextLayout}" Text="{Binding SelectedAnimal.Location}"/>
+                </FlexLayout>
+                <FlexLayout  Direction ="Column" AlignItems="Center">
+                    <Label Style="{StaticResource DetailMainTextLayout}" Text="Description: "/>
+                    <Label Style="{StaticResource DetailMainTextLayout}" Text="{Binding SelectedAnimal.Description}"/>
+                </FlexLayout>
+                <FlexLayout  Direction ="Column" AlignItems="Center">
+                    <Label Style="{StaticResource DetailMainTextLayout}" Text="Has been Fed:"/>
+                    <CheckBox IsChecked="{Binding SelectedAnimal.IsFed}"/>
+                    <Label Style="{StaticResource DetailMainTextLayout}" Text="Has been walked:"/>
+                    <CheckBox IsChecked="{Binding SelectedAnimal.IsWalked}"/>
+                </FlexLayout>
+
+
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,33 @@
+﻿@page "/Breeds"
+
+
+<h3>Breeds</h3>
+
+<div class="mt-3">
+ @if (!string.IsNullOrEmpty(error))
+ {
+ <div class="alert alert-danger">
+ @error
+ </div>
+ }
+    @if (currentBreed == null)
+    {
+        <BreedsList Items="breeds"
+                   OnAdd="AddBreed"
+                   OnEdit="EditBreed"
+                   OnDelete="DeleteBreed">
+        </BreedsList>
+    }
+    else
+    {
+        <BreedForm Breed="currentBreed"
+                  OnSave="SaveBreed"
+                  OnCancel="RefreshBreeds">
+        </BreedForm>
+    }
+</div>
+
+
+
+
+ 

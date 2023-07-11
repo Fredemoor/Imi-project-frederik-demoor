@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Imi.Project.Mobile.Pages.KennelListPage">
+    <ContentPage.Content>
+        <StackLayout Margin="10">
+            <Label Margin="20" Style="{StaticResource LabelHeaderLayout}" Text="Kennels"/>
+            <ListView ItemsSource="{Binding Locations}"
+                      HasUnevenRows="false" 
+                      RowHeight="100"
+                      SelectedItem="{Binding SelectedLocation, Mode=TwoWay}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                          
+                            <FlexLayout Direction="Row" AlignItems="Center" JustifyContent="SpaceBetween" StyleClass="listitem">
+                                <Label Text="{Binding Name}" Style="{StaticResource ListName}" VerticalOptions="End" HorizontalOptions="StartAndExpand" />
+                                <CheckBox  IsChecked="{Binding IsClean}"/>
+                            </FlexLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,72 @@
+﻿@using Imi.Project.Pin.Data.Enums
+<EditForm Model="@Animal" OnValidSubmit="@(e => OnSave.InvokeAsync(Animal))">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="name">Name: </label>
+        <InputText id="name" @bind-Value="Animal.Name" class="form-control" />
+        <ValidationMessage For="@(() => Animal.Name)" />
+    </div>
+
+    <div class="form-group">
+        <label for="Location">Location: </label>
+        <InputSelect id="Location"
+                     TValue="int"
+                     @bind-Value="Animal.LocationId" class="form-control">
+            @foreach (var Location in AvailableLocations)
+            {
+                <option value="@Location.Id">@Location.Name</option>
+            }
+        </InputSelect>
+        <ValidationMessage For="@(() => Animal.LocationId)" />
+    </div>
+
+    <div class="form-group">
+        <label for="Gender">Gender:</label>
+        <InputSelect @bind-Value="Animal.Gender" >
+            @foreach (var gender in Enum.GetValues(typeof(Gender)))
+            {
+             <option value="@gender">@gender</option>   
+            }
+        </InputSelect>
+    </div>
+
+     <div class="form-group">
+        <label for="Breed">Breed: </label>
+        <InputSelect id="Breed"
+                     TValue="int"
+                     @bind-Value="Animal.BreedId" class="form-control">
+            @foreach (var Breed in AvailableBreeds)
+            {
+                <option value="@Breed.Id">@Breed.Name</option>
+            }
+        </InputSelect>
+        <ValidationMessage For="@(() => Animal.BreedId)" />
+    </div>
+
+    <div class="form-group">
+        <label for="description">Description: </label>
+        <InputTextArea id="description" @bind-Value="Animal.Description" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <button type="button" class="btn btn-warning" @onclick="OnCancel">Cancel</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public Animal Animal { get; set; }
+
+    [Parameter]
+
+    public Location[] AvailableLocations { get; set; } = new Location[0];
+
+    [Parameter]
+    public Breed[] AvailableBreeds { get; set; } = new Breed[0];
+
+    [Parameter]
+    public EventCallback<Animal> OnSave { get; set; }
+    
+    [Parameter]
+    public EventCallback OnCancel { get; set; }
+}

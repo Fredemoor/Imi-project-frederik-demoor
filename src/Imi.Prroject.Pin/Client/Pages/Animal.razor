@@ -1,0 +1,16 @@
+﻿@page "/animal"
+@page "/animal/{id}"
+@inject IAnimalService AnimalService
+
+
+<PageTitle> Edit animal.Name</PageTitle>
+
+
+<h3>Animal</h3>
+
+@code {
+    [Parameter]
+    public Guid Id { get; set; }
+    //public string Name { get; set; }
+    //Animal animal = new Animal { };
+}

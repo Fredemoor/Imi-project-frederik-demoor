@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Imi.Project.Mobile.Pages.KennelDetailPage"
+             xmlns:urisource="clr-namespace:Howest.Prog.Xamarin.UriSourceExtensions;assembly=Howest.Prog.Xamarin.UriSourceExtensions">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <FlexLayout Direction="Column" AlignItems="Center">
+                    <Label Margin="20" Style="{StaticResource DetailHeaderLayout}" Text="{Binding SelectedLocation.Name}"/>
+                </FlexLayout>
+                <FlexLayout  Direction ="Column" AlignItems="Center">
+                    <Label Style="{StaticResource DetailMainTextLayout}" Text="Capacity"/>
+                    <Label Style="{StaticResource DetailMainTextLayout}" Text="{Binding SelectedLocation.Capacity}"/>
+                </FlexLayout>
+                <FlexLayout  Direction ="Column" AlignItems="Center">
+                    <Label Style="{StaticResource DetailMainTextLayout}" Text="Has been cleaned"/>
+                    <CheckBox IsChecked="{Binding SelectedLocation.IsClean}"/>
+                </FlexLayout>
+                <FlexLayout  Direction ="Column" AlignItems="Center">
+                    <Label Style="{StaticResource DetailMainTextLayout}" Text="Dogs Have been walked"/>
+                    <CheckBox IsChecked="{Binding SelectedLocation.IsWalked}"/>
+                </FlexLayout>
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

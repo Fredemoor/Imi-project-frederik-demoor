@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Api\\wwwroot\\Img\\img0.png",
+      "PackagePath": "staticwebassets\\Img\\img0.png"
+    },
+    {
+      "Id": "D:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Api\\wwwroot\\Img\\img1.png",
+      "PackagePath": "staticwebassets\\Img\\img1.png"
+    },
+    {
+      "Id": "D:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Api\\wwwroot\\Img\\img10.png",
+      "PackagePath": "staticwebassets\\Img\\img10.png"
+    },
+    {
+      "Id": "D:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Api\\wwwroot\\Img\\img11.png",
+      "PackagePath": "staticwebassets\\Img\\img11.png"
+    },
+    {
+      "Id": "D:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Api\\wwwroot\\Img\\img12.png",
+      "PackagePath": "staticwebassets\\Img\\img12.png"
+    },
+    {
+      "Id": "D:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Api\\wwwroot\\Img\\img2.png",
+      "PackagePath": "staticwebassets\\Img\\img2.png"
+    },
+    {
+      "Id": "D:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Api\\wwwroot\\Img\\img3.png",
+      "PackagePath": "staticwebassets\\Img\\img3.png"
+    },
+    {
+      "Id": "D:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Api\\wwwroot\\Img\\img4.png",
+      "PackagePath": "staticwebassets\\Img\\img4.png"
+    },
+    {
+      "Id": "D:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Api\\wwwroot\\Img\\img5.png",
+      "PackagePath": "staticwebassets\\Img\\img5.png"
+    },
+    {
+      "Id": "D:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Api\\wwwroot\\Img\\img6.png",
+      "PackagePath": "staticwebassets\\Img\\img6.png"
+    },
+    {
+      "Id": "D:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Api\\wwwroot\\Img\\img7.png",
+      "PackagePath": "staticwebassets\\Img\\img7.png"
+    },
+    {
+      "Id": "D:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Api\\wwwroot\\Img\\img8.png",
+      "PackagePath": "staticwebassets\\Img\\img8.png"
+    },
+    {
+      "Id": "D:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Api\\wwwroot\\Img\\img9.png",
+      "PackagePath": "staticwebassets\\Img\\img9.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Imi.Project.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Imi.Project.Api.props",
+      "PackagePath": "build\\Imi.Project.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Imi.Project.Api.props",
+      "PackagePath": "buildMultiTargeting\\Imi.Project.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Imi.Project.Api.props",
+      "PackagePath": "buildTransitive\\Imi.Project.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

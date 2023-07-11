@@ -1,0 +1,56 @@
+﻿@page "/"
+
+@using Imi.Project.Pin.Concept.Quiz.Models;
+
+<PageTitle>Quiz</PageTitle>
+
+
+@using Imi.Project.Pin.Concept.Quiz.Components
+
+
+<div class="container">
+    <div class="quiz">
+        @if (questionIndex < Questions.Count())
+        {
+            <div class="quiz-category pb-5 display-6">
+                @Questions[questionIndex].Category
+            </div>
+
+            <div class="quiz-header pb-5">
+                @Questions[questionIndex].QuestionTitle
+                @Questions[questionIndex].CorrectAnswer
+            </div>
+
+            <div class="quiz-body">
+
+                @foreach (var answer in Questions[questionIndex].IncorrectAnswers)
+                {
+                    <OptionCard Option="@answer" OnOptionSelected="OptionSelected"></OptionCard>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="app-title">
+                @if (score > (Questions.Count / 2))
+                {
+                    <h2>Winnaar!</h2>
+                }
+                else
+                {
+                    <h2>Jammer...</h2>
+                }
+            </div>
+            <div class="app-title">
+                @(score > (Questions.Count() / 2) ? "Proficiat" : "Meer geluk de volgende keer")
+            </div>
+            <div class="quiz-header">
+                <b>Je scoorde @score punten!</b>
+            </div>
+            <div class="quiz-footer">
+                <button class="next-btn" @onclick="@ResetGame">Nieuwe ronde</button>
+            </div>
+        }
+    </div>
+</div>
+

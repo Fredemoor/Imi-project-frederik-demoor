@@ -1,0 +1,49 @@
+﻿
+
+<button class="btn btn-primary" @onclick="OnAdd">Add Kennel</button>
+<table class="table mt-3">
+    <thead>
+        <tr>
+          
+            <th>Id</th>
+            <th>Name</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Items)
+        {
+            <tr>            
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>
+                    <button class="btn btn-outline-success"
+                        @onclick="e => OnDelete.InvokeAsync(item)">
+                        <i class="oi oi-delete"></i>
+                    </button>
+                </td>
+                <td>
+                    <button class="btn btn-outline-info"
+                        @onclick="e => OnEdit.InvokeAsync(item)">
+                        <i class="oi oi-pencil"></i>
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@code {
+    [Parameter]
+    public Location[] Items { get; set; }
+
+    [Parameter]
+    public EventCallback OnAdd { get; set; }
+
+    [Parameter]
+    public EventCallback<Location> OnEdit { get; set; }
+
+    [Parameter]
+    public EventCallback<Location> OnDelete { get; set; }
+
+}

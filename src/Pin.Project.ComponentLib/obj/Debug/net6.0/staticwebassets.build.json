@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "VfNg314B1LJQrHMA94XKh9t2HvAkd/tzg+lfgydiXGA=",
+  "Source": "Pin.Project.ComponentLib",
+  "BasePath": "_content/Pin.Project.ComponentLib",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Pin.Project.ComponentLib\\wwwroot",
+      "Source": "Pin.Project.ComponentLib",
+      "ContentRoot": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Pin.Project.ComponentLib\\wwwroot\\",
+      "BasePath": "_content/Pin.Project.ComponentLib",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Pin.Project.ComponentLib\\wwwroot\\scripts\\pin.project.componentLib.js",
+      "SourceId": "Pin.Project.ComponentLib",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Pin.Project.ComponentLib\\wwwroot\\",
+      "BasePath": "_content/Pin.Project.ComponentLib",
+      "RelativePath": "scripts/pin.project.componentLib.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scripts\\pin.project.componentLib.js"
+    }
+  ]
+}

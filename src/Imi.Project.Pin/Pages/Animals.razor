@@ -1,0 +1,30 @@
+﻿@page "/Animals"
+
+
+<h3>Animals</h3>
+
+<div class="mt-3">
+ @if (!string.IsNullOrEmpty(error))
+ {
+ <div class="alert alert-danger">
+ @error
+ </div>
+ }
+ @if (currentAnimal == null)
+ {
+ <AnimalList Items="animals"
+ OnAdd="AddAnimal"
+ OnEdit="EditAnimal"
+ OnDelete="DeleteAnimal">
+ </AnimalList>
+ }
+ else
+ {
+ <AnimalForm
+ Animal="currentAnimal"
+ AvailableLocations="availableLocations"
+ OnSave="SaveAnimal"
+ OnCancel="RefreshAnimals">
+ </AnimalForm>
+ }
+</div>
