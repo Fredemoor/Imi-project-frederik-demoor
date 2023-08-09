@@ -59,9 +59,6 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
              .Property(a => a.Gender)
              .IsRequired();
 
-
-
-
         modelBuilder
             .Entity<Location>()
              .Property(l => l.Name)

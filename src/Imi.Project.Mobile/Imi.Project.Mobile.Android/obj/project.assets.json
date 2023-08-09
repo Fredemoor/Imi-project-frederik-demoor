@@ -6736,11 +6736,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Mobile\\Imi.Project.Mobile.Android\\Imi.Project.Mobile.Android.csproj",
+      "projectUniqueName": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Mobile\\Imi.Project.Mobile.Android\\Imi.Project.Mobile.Android.csproj",
       "projectName": "Imi.Project.Mobile.Android",
-      "projectPath": "E:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Mobile\\Imi.Project.Mobile.Android\\Imi.Project.Mobile.Android.csproj",
+      "projectPath": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Mobile\\Imi.Project.Mobile.Android\\Imi.Project.Mobile.Android.csproj",
       "packagesPath": "C:\\Users\\demoo\\.nuget\\packages\\",
-      "outputPath": "E:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Mobile\\Imi.Project.Mobile.Android\\obj\\",
+      "outputPath": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Mobile\\Imi.Project.Mobile.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -6761,8 +6761,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "E:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Mobile\\Imi.Project.Mobile\\Imi.Project.Mobile.csproj": {
-              "projectPath": "E:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Mobile\\Imi.Project.Mobile\\Imi.Project.Mobile.csproj"
+            "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Mobile\\Imi.Project.Mobile\\Imi.Project.Mobile.csproj": {
+              "projectPath": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Mobile\\Imi.Project.Mobile\\Imi.Project.Mobile.csproj"
             }
           }
         }

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>LAPTOP-LROF0F7F</Machine>
+    <Machine>LAPTOP-737ES9H0</Machine>
     <WindowsUser>demoo</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=b1ba8e58-d095-49f3-b43d-efdae7fbf851</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\Imi.Project.Mobile.UWP.exe">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\Imi.Project.Mobile.UWP.exe">
       <PackagePath>entrypoint\Imi.Project.Mobile.UWP.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\demoo\.nuget\packages\fluentvalidation\11.2.2\lib\netstandard2.0\FluentValidation.dll">
@@ -88,7 +88,7 @@
     <AppxPackagedFile Include="C:\Users\demoo\.nuget\packages\refractored.mvvmhelpers\1.6.2\lib\netstandard2.0\MvvmHelpers.dll">
       <PackagePath>MvvmHelpers.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\demoo\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\demoo\.nuget\packages\system.diagnostics.diagnosticsource\6.0.0\lib\netstandard2.0\System.Diagnostics.DiagnosticSource.dll">
@@ -127,7 +127,7 @@
     <AppxPackagedFile Include="C:\Users\demoo\.nuget\packages\xamarin.forms\5.0.0.2515\lib\uap10.0.16299\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile\bin\Debug\netstandard2.0\Imi.Project.Mobile.dll">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile\bin\Debug\netstandard2.0\Imi.Project.Mobile.dll">
       <PackagePath>Imi.Project.Mobile.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\demoo\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
@@ -139,136 +139,136 @@
     <AppxPackagedFile Include="C:\Users\demoo\.nuget\packages\xamarin.forms\5.0.0.2515\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\wwwroot\images\image0.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\wwwroot\images\image0.png">
       <PackagePath>wwwroot\images\image0.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\wwwroot\images\image1.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\wwwroot\images\image1.png">
       <PackagePath>wwwroot\images\image1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\wwwroot\images\image2.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\wwwroot\images\image2.png">
       <PackagePath>wwwroot\images\image2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\wwwroot\images\image3.png">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\wwwroot\images\image3.png">
       <PackagePath>wwwroot\images\image3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\Imi.Project.Mobile.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\Imi.Project.Mobile.UWP.xr.xml">
       <PackagePath>Imi.Project.Mobile.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
@@ -280,10 +280,10 @@
     <AppxPackagedFile Include="C:\Users\demoo\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\Core\Imi.Project.Mobile.UWP.exe">
+    <AppxPackagedFile Include="C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\bin\x86\Debug\Core\Imi.Project.Mobile.UWP.exe">
       <PackagePath>Imi.Project.Mobile.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
@@ -328,52 +328,52 @@
       <AppxLocation>C:\Users\demoo\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\demoo\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.31331.1</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\demoo\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\demoo\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.31331.1</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\demoo\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\demoo\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.31331.1</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\demoo\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\demoo\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.31327.1</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\demoo\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\demoo\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.31327.1</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\demoo\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\demoo\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.31327.1</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\demoo\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">

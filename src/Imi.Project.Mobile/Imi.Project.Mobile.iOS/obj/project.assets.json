@@ -7584,11 +7584,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Mobile\\Imi.Project.Mobile.iOS\\Imi.Project.Mobile.iOS.csproj",
+      "projectUniqueName": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Mobile\\Imi.Project.Mobile.iOS\\Imi.Project.Mobile.iOS.csproj",
       "projectName": "Imi.Project.Mobile.iOS",
-      "projectPath": "E:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Mobile\\Imi.Project.Mobile.iOS\\Imi.Project.Mobile.iOS.csproj",
+      "projectPath": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Mobile\\Imi.Project.Mobile.iOS\\Imi.Project.Mobile.iOS.csproj",
       "packagesPath": "C:\\Users\\demoo\\.nuget\\packages\\",
-      "outputPath": "E:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Mobile\\Imi.Project.Mobile.iOS\\obj\\",
+      "outputPath": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Mobile\\Imi.Project.Mobile.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -7609,8 +7609,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "E:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Mobile\\Imi.Project.Mobile\\Imi.Project.Mobile.csproj": {
-              "projectPath": "E:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Mobile\\Imi.Project.Mobile\\Imi.Project.Mobile.csproj"
+            "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Mobile\\Imi.Project.Mobile\\Imi.Project.Mobile.csproj": {
+              "projectPath": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Mobile\\Imi.Project.Mobile\\Imi.Project.Mobile.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ykx/5oKUTEYx9H7y2bu+NSVpdqTaCkfsHZu5C/P+vGR/fCEd9y4GzTnYzAAD7cZKrD06J09B5/ULhC/fNxBxVA==",
+  "dgSpecHash": "v/SyhNL5f/z5T8j9R6U5XcL68XnPlxlm1+oN0h2xFAN2uHNAx8wopDwFx5RCibpST5SdhkKbWAlKqYtwoxLWYg==",
   "success": true,
-  "projectFilePath": "E:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Api.Core\\Imi.Project.Api.Core.csproj",
+  "projectFilePath": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Api.Core\\Imi.Project.Api.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\demoo\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
     "C:\\Users\\demoo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

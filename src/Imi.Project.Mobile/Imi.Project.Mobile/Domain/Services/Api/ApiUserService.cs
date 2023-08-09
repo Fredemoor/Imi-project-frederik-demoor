@@ -1,5 +1,6 @@
 ﻿using Imi.Project.Mobile.Domain.Models;
 using Imi.Project.Mobile.Domain.Services.Interfaces;
+using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace Imi.Project.Mobile.Domain.Services.Api
@@ -17,16 +18,25 @@ namespace Imi.Project.Mobile.Domain.Services.Api
         }
         public async Task<User> Login(User user)
         {
-            return await AppHttpClient
-                .PostCallApi<User, User>($"{BaseUri}/api/Accounts/login", user);
+            return await HttpClient.PostCallApi<User, User>($"api/Accounts/login", user);
         }
 
         public async Task<User> AddUserAsync(User user)
         {
-            return await AppHttpClient
-                .PostCallApi<User, User>($"{BaseUri}/api/Accounts/register", user);
-
+            return await HttpClient.PostCallApi<User, User>($"api/Accounts/register", user);
         }
+        //public async Task<User> Login(User user)
+        //{
+        //    return await AppHttpClient
+        //        .PostCallApi<User, User>($"{BaseUri}/api/Accounts/login", user);
+        //}
+
+        //public async Task<User> AddUserAsync(User user)
+        //{
+        //    return await AppHttpClient
+        //        .PostCallApi<User, User>($"{BaseUri}/api/Accounts/register", user);
+
+        //}
 
         public bool ValidateUserPassword(string password, string confirmPassword)
         {

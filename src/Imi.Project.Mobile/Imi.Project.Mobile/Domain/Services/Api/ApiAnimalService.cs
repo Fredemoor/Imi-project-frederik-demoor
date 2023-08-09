@@ -10,8 +10,9 @@ namespace Imi.Project.Mobile.Domain.Services.Api
 {
     public class ApiAnimalService : IAnimalService
     {
-        private string baseUri = Constants.BaseUrl;
-        protected AppHttpClient httpClient;
+        private readonly AppHttpClient httpClient;
+        private readonly string baseUri = Constants.BaseUrl;
+
         public ApiAnimalService(AppHttpClient client)
         {
             httpClient = client;
@@ -64,13 +65,12 @@ namespace Imi.Project.Mobile.Domain.Services.Api
 
         public async Task<Animal> UpdateAsync(Animal animal)
         {
-            return await AppHttpClient
-                 .PutCallApi<Animal, Animal>($"{baseUri}/api/Animals/{animal.Id}", animal);
+            return await httpClient.PutCallApi<Animal, Animal>($"api/Animals/{animal.Id}", animal);
         }
 
         public async Task<Animal> DeleteAsync(Guid id)
         {
-            return await AppHttpClient.DeleteCallApi<Animal>($"{baseUri}/api/Animals/{id}");
+            return await httpClient.DeleteCallApi<Animal>($"api/Animals/{id}");
         }
     }
 }

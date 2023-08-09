@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TxcT9LHU7Yi4f66g5W/pfhQWk2AI9Ek+ehva8QlndfRCBr+f3s9WPnDCkgLa3YCeVd9jTUXTnYPRMMmniCyA8Q==",
+  "dgSpecHash": "z922+mpsso4FWreTwE12wWM/SIPlfnETfV+1icp87sSaZ6ica5CpbcGIKl81Aj16QDccJRUuCImxrhtpv2HTdw==",
   "success": true,
-  "projectFilePath": "E:\\BACKUPFILES\\IMI-project\\src\\Pin.Project.ComponentLib\\Pin.Project.ComponentLib.csproj",
+  "projectFilePath": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Pin.Project.ComponentLib\\Pin.Project.ComponentLib.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\demoo\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
     "C:\\Users\\demoo\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",

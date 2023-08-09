@@ -1,1 +1,1 @@
-C:\Xam\st-2223-1-d-imi-project-FrederikDeMoor79\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Imi.Project.Mobile.UWP.csproj;x86
+C:\Projects\Imi-project-frederik-demoor\src\Imi.Project.Mobile\Imi.Project.Mobile.UWP\Imi.Project.Mobile.UWP.csproj;x86

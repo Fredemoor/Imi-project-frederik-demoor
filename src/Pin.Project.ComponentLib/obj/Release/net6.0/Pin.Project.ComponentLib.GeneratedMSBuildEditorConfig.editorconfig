@@ -9,25 +9,25 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = Pin.Project.ComponentLib
 build_property.RootNamespace = Pin.Project.ComponentLib
-build_property.ProjectDir = E:\BACKUPFILES\IMI-project\src\Pin.Project.ComponentLib\
+build_property.ProjectDir = C:\Users\demoo\OneDrive\Desktop\Imi-project-frederik-demoor\src\Pin.Project.ComponentLib\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\BACKUPFILES\IMI-project\src\Pin.Project.ComponentLib
+build_property.MSBuildProjectDirectory = C:\Users\demoo\OneDrive\Desktop\Imi-project-frederik-demoor\src\Pin.Project.ComponentLib
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/BACKUPFILES/IMI-project/src/Pin.Project.ComponentLib/Components/ItemDetails.razor]
+[C:/Users/demoo/OneDrive/Desktop/Imi-project-frederik-demoor/src/Pin.Project.ComponentLib/Components/ItemDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJdGVtRGV0YWlscy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/BACKUPFILES/IMI-project/src/Pin.Project.ComponentLib/Components/ItemList.razor]
+[C:/Users/demoo/OneDrive/Desktop/Imi-project-frederik-demoor/src/Pin.Project.ComponentLib/Components/ItemList.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJdGVtTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/BACKUPFILES/IMI-project/src/Pin.Project.ComponentLib/Components/QuizCard.razor]
+[C:/Users/demoo/OneDrive/Desktop/Imi-project-frederik-demoor/src/Pin.Project.ComponentLib/Components/QuizCard.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xRdWl6Q2FyZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/BACKUPFILES/IMI-project/src/Pin.Project.ComponentLib/_Imports.razor]
+[C:/Users/demoo/OneDrive/Desktop/Imi-project-frederik-demoor/src/Pin.Project.ComponentLib/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

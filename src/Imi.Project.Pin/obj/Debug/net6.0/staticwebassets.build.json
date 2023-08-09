@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d/8Zx0y4l36cqBIQ+FQptNswp2CsvOHN1oknql98kg0=",
+  "Hash": "z+ASohu4GsjnYYAyLZRHliZc+PoYT72P3j4r8pQyTbs=",
   "Source": "Imi.Project.Pin",
   "BasePath": "_content/Imi.Project.Pin",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Imi.Project.Pin\\wwwroot",
       "Source": "Imi.Project.Pin",
-      "ContentRoot": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\",
       "BasePath": "_content/Imi.Project.Pin",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Imi.Project.Pin.styles.css",
+      "Identity": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Imi.Project.Pin.styles.css",
       "SourceId": "Imi.Project.Pin",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Imi.Project.Pin",
       "RelativePath": "Imi.Project.Pin.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Imi.Project.Pin.styles.css"
+      "OriginalItemSpec": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Imi.Project.Pin.styles.css"
     },
     {
-      "Identity": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Imi.Project.Pin.bundle.scp.css",
+      "Identity": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Imi.Project.Pin.bundle.scp.css",
       "SourceId": "Imi.Project.Pin",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Imi.Project.Pin",
       "RelativePath": "Imi.Project.Pin.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Imi.Project.Pin.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Imi.Project.Pin.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "Imi.Project.Pin",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\",
       "BasePath": "_content/Imi.Project.Pin",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Imi.Project.Pin",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\",
       "BasePath": "_content/Imi.Project.Pin",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\css\\img\\leash.png",
+      "Identity": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\css\\img\\leash.png",
       "SourceId": "Imi.Project.Pin",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\",
       "BasePath": "_content/Imi.Project.Pin",
       "RelativePath": "css/img/leash.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\img\\leash.png"
     },
     {
-      "Identity": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "Imi.Project.Pin",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\",
       "BasePath": "_content/Imi.Project.Pin",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "Imi.Project.Pin",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\",
       "BasePath": "_content/Imi.Project.Pin",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "Imi.Project.Pin",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\",
       "BasePath": "_content/Imi.Project.Pin",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "Imi.Project.Pin",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\",
       "BasePath": "_content/Imi.Project.Pin",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "Imi.Project.Pin",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\",
       "BasePath": "_content/Imi.Project.Pin",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "Imi.Project.Pin",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\",
       "BasePath": "_content/Imi.Project.Pin",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "Imi.Project.Pin",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\",
       "BasePath": "_content/Imi.Project.Pin",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "Imi.Project.Pin",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\",
       "BasePath": "_content/Imi.Project.Pin",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "Imi.Project.Pin",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\",
       "BasePath": "_content/Imi.Project.Pin",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\css\\site.css",
       "SourceId": "Imi.Project.Pin",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\",
       "BasePath": "_content/Imi.Project.Pin",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\favicon.ico",
       "SourceId": "Imi.Project.Pin",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Xam\\st-2223-1-d-imi-project-FrederikDeMoor79\\src\\Imi.Project.Pin\\wwwroot\\",
+      "ContentRoot": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Pin\\wwwroot\\",
       "BasePath": "_content/Imi.Project.Pin",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

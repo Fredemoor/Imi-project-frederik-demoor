@@ -588,11 +588,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\BACKUPFILES\\IMI-project\\src\\Pin.Project.ComponentLib\\Pin.Project.ComponentLib.csproj",
+      "projectUniqueName": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Pin.Project.ComponentLib\\Pin.Project.ComponentLib.csproj",
       "projectName": "Pin.Project.ComponentLib",
-      "projectPath": "E:\\BACKUPFILES\\IMI-project\\src\\Pin.Project.ComponentLib\\Pin.Project.ComponentLib.csproj",
+      "projectPath": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Pin.Project.ComponentLib\\Pin.Project.ComponentLib.csproj",
       "packagesPath": "C:\\Users\\demoo\\.nuget\\packages\\",
-      "outputPath": "E:\\BACKUPFILES\\IMI-project\\src\\Pin.Project.ComponentLib\\obj\\",
+      "outputPath": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Pin.Project.ComponentLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -651,7 +651,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

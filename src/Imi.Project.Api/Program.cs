@@ -148,7 +148,7 @@ if (app.Environment.IsDevelopment())
 //voor bvb wwwroot picture files
 app.UseStaticFiles();
 app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 

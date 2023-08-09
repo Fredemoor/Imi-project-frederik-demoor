@@ -21,9 +21,6 @@ namespace Imi.Project.Pin.Concept.Quiz
             builder.Services.AddServerSideBlazor();
 
 
-
-
-
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

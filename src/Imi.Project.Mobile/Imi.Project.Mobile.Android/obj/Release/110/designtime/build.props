@@ -16,7 +16,7 @@ androidsdkpath=c:\program files (x86)\android\android-sdk\
 androidndkpath=
 javasdkpath=c:\program files\microsoft\jdk-11.0.16.101-hotspot\
 androidsequencepointsmode=normal
-xamarinandroidversion=13.2.0-6
+xamarinandroidversion=13.2.1-2
 monosymbolarchive=true
 androiduselatestplatformsdk=false
 targetframeworkversion=v11.0
@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=false
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638237569620644537
+_nugetassetstimestamp=638271980839716081
 typemapkind=mvid
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=e:\backupfiles\imi-project\src\imi.project.mobile\imi.project.mobile.android\imi.project.mobile.android.csproj
+projectfullpath=c:\users\demoo\onedrive\desktop\imi-project-frederik-demoor\src\imi.project.mobile\imi.project.mobile.android\imi.project.mobile.android.csproj

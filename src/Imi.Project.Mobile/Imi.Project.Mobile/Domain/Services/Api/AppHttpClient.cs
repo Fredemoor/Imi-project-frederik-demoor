@@ -4,14 +4,17 @@ using System.Net.Http;
 using System.Net.Http.Formatting;
 using System.Threading.Tasks;
 
-
 namespace Imi.Project.Mobile.Domain.Services.Api
 {
     public class AppHttpClient : HttpClient, IAppHttpClient
     {
-        public AppHttpClient() : base(CreateClientHandler())
+        private readonly string baseUri;
+
+        public AppHttpClient(string baseUri) : base(CreateClientHandler())
         {
+            this.baseUri = baseUri;
         }
+
         private static HttpClientHandler CreateClientHandler()
         {
             var httpClientHandler = new HttpClientHandler();
@@ -31,33 +34,31 @@ namespace Imi.Project.Mobile.Domain.Services.Api
             return formatter;
         }
 
-        public async Task<T> GetApiResult<T>(string uri)
+        public async Task<T> GetApiResult<T>(string endpoint)
         {
-
             using (HttpClient httpClient = new HttpClient(CreateClientHandler()))
             {
-                string response = await httpClient.GetStringAsync(uri);
+                string response = await httpClient.GetStringAsync($"{baseUri}/{endpoint}");
                 return JsonConvert.DeserializeObject<T>(response, GetJsonFormatter().SerializerSettings);
             }
         }
 
-        public static async Task<TOut> PostCallApi<TOut, TIn>(string uri, TIn entity)
+        public async Task<TOut> PostCallApi<TOut, TIn>(string endpoint, TIn entity)
         {
-            return await CallApi<TOut, TIn>(uri, entity, HttpMethod.Post);
+            return await CallApi<TOut, TIn>($"{baseUri}/{endpoint}", entity, HttpMethod.Post);
         }
 
-
-        public static async Task<TOut> PutCallApi<TOut, TIn>(string uri, TIn entity)
+        public async Task<TOut> PutCallApi<TOut, TIn>(string endpoint, TIn entity)
         {
-            return await CallApi<TOut, TIn>(uri, entity, HttpMethod.Put);
+            return await CallApi<TOut, TIn>($"{baseUri}/{endpoint}", entity, HttpMethod.Put);
         }
 
-        public static async Task<TOut> DeleteCallApi<TOut>(string uri)
+        public async Task<TOut> DeleteCallApi<TOut>(string endpoint)
         {
-            return await CallApi<TOut, object>(uri, null, HttpMethod.Delete);
+            return await CallApi<TOut, object>($"{baseUri}/{endpoint}", null, HttpMethod.Delete);
         }
 
-        private static async Task<TOut> CallApi<TOut, TIn>(string uri, TIn entity, HttpMethod httpMethod)
+        private async Task<TOut> CallApi<TOut, TIn>(string uri, TIn entity, HttpMethod httpMethod)
         {
             TOut result = default;
 

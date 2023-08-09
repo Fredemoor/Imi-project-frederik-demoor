@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/zsdiQjZsW0hExtsbMR8rY9LIozXbTkkuyDJNJzYeVxp7r6dv8qDVD5Ow5CeqAqNHbrX6+kQAewwVYAsx/HJlA==",
+  "dgSpecHash": "n0s4xCSBvunLaLelkBN9NWHjPb0PbDSl3o+t7Iug0Xxa8OWyAJf/ONNZJTKXHRxxoU0j0SXKkL0QMAeF+gcU+w==",
   "success": true,
-  "projectFilePath": "E:\\BACKUPFILES\\IMI-project\\src\\Imi.Project.Mobile\\Imi.Project.Mobile.Android\\Imi.Project.Mobile.Android.csproj",
+  "projectFilePath": "C:\\Projects\\Imi-project-frederik-demoor\\src\\Imi.Project.Mobile\\Imi.Project.Mobile.Android\\Imi.Project.Mobile.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\demoo\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
     "C:\\Users\\demoo\\.nuget\\packages\\freshmvvm\\4.0.1\\freshmvvm.4.0.1.nupkg.sha512",

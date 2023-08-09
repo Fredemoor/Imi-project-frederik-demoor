@@ -7,6 +7,6 @@
 
         //public const string BaseUrl = "https://192.168.0.115:5001";
 
-        public const string BaseUrl = "https://192.168.0.115:5001";
+        public const string BaseUrl = "http://192.168.0.1:5001";
     }
 }
